@@ -6,7 +6,7 @@ rightWristY = 0;
 scoreLeftWrist = 0;
 
 function preload(){
-	song = loadSound("song.mp3");
+	song = loadSound("song2.mp3");
 }
 
 function setup() {
@@ -29,7 +29,7 @@ function draw() {
 		InNumberleftWristY = Number(leftWristY);
 		remove_decimals = floor(InNumberleftWristY);
 		song.stop();
-		song='song2.mp3';
+		song='loadSound("song.mp3");
 		song.play();
 	}
 	else{
